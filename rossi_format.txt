@@ -1,0 +1,23 @@
+The instance file for the electricity network problem is as follows:
+
+
+m n o D
+x y Power
+...
+x y Consumption
+...
+edge0 edge 1
+...
+
+Each .dat file has 1+m+n+o lines.
+
+The idea is that provider are numbered in {0,1,...,m-1} and consumers are numbered in {m, m+1,..., m+n-1}.
+
+Where m is the number of providers, n is the number of customers
+o is the number of connections, and D is the maximum lenght of a path between a provider and a customer
+
+Then, the coordinates and the power delivered by each provider is displayed on m lines
+
+The coordinates and the power consumed by each consumer is displayed on n lines
+
+The connections are displayed on o lines, where a connection is modeled as an undirected edge.
