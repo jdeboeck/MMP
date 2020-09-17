@@ -1,0 +1,10 @@
+The instance file for the electricity network problem is as follows:
+
+c								# Maximum production of each feeder
+d_{min}							# Minimum hop value
+|V_f|							# Number of feeders
+feeder_1 ... feeder_{|V_f|}		# Index of the feeder in the graph
+dem_1 dem_2 ... dem_{|V_c|}		# Customer demands
+v_1 v_2							# Edge 1
+v_3 v_4							# Edge 2
+....							# ...
